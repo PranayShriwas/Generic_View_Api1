@@ -29,7 +29,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'Product',
     'user',
-    'student'
+    'student',
+    'Laptop'
+
 ]
 
 MIDDLEWARE = [

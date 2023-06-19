@@ -5,5 +5,6 @@ urlpatterns = [
     path('', include('emp.urls')),
     path('product/', include('Product.urls')),
     path('user/', include('user.urls')),
-    path('student/', include('student.urls'))
+    path('student/', include('student.urls')),
+    path('laptop/', include('Laptop.urls')),
 ]
